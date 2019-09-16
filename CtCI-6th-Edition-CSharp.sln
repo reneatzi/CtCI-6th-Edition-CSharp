@@ -2,6 +2,10 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VII.Algorithms", "VII.Algorithms\VII.Algorithms.csproj", "{2C32E074-11B4-4821-82BB-074EC3BE8BE8}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{CE272F17-EEC1-4F7A-A350-8D30552177FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VII.Algorithms.Tests", "Tests\VII.Algorithms.Tests\VII.Algorithms.Tests.csproj", "{F09A39A7-CD2A-45DC-BDCE-4BE7EC52DE95}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +16,12 @@ Global
 		{2C32E074-11B4-4821-82BB-074EC3BE8BE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2C32E074-11B4-4821-82BB-074EC3BE8BE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2C32E074-11B4-4821-82BB-074EC3BE8BE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F09A39A7-CD2A-45DC-BDCE-4BE7EC52DE95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F09A39A7-CD2A-45DC-BDCE-4BE7EC52DE95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F09A39A7-CD2A-45DC-BDCE-4BE7EC52DE95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F09A39A7-CD2A-45DC-BDCE-4BE7EC52DE95}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F09A39A7-CD2A-45DC-BDCE-4BE7EC52DE95} = {CE272F17-EEC1-4F7A-A350-8D30552177FC}
 	EndGlobalSection
 EndGlobal
