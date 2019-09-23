@@ -1,5 +1,6 @@
 using FluentAssertions;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using VII.Algorithms.SortingAlgorithms;
 
 namespace VII.Algorithms.Tests
 {

@@ -1,6 +1,6 @@
 using VII.Algorithms.Interfaces;
 
-namespace VII.Algorithms
+namespace VII.Algorithms.SortingAlgorithms
 {
 	public class QuickSort : ISort
 	{
